@@ -16,8 +16,8 @@ def get_score(applicant, team, max_att):
 
 def main():
     # Open file & load data
-    with open('input.json', 'r') as f:
-        data = json.load(f)
+    with open('input.json', 'r') as inputFile:
+        data = json.load(inputFile)
 
     team = data['team']
     applicants = data['applicants']
@@ -39,5 +39,5 @@ def main():
         })
 
     # Write scoredApplicants to json
-    with open('output.json', 'w') as f:
-        json.dump({'scoredApplicants': scored_applicants}, f)
+    with open('output.json', 'w') as outputFile:
+        json.dump({'scoredApplicants': scored_applicants}, outputFile)
