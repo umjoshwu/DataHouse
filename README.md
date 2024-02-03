@@ -9,7 +9,8 @@ This is why I opted to write a script that finds how different the candidates ar
 calculates the maximum difference that a candidate could have between all team members called max_att, and then calculates
 how different each candidate is to the team as a whole. How different each candidate is to the team can be very subjective,
 and I calculated it by taking the difference in attribute values for all attributes in the applicant and team member.
-It uses max_att to normalize the values, and outputs it into a json file.
+It uses max_att to normalize the values, and outputs it into a json file. The input is taken in through a file, loaded into
+a dictionary data using the json library in python.
 
 Files:
     scorer.py, scores input.json
