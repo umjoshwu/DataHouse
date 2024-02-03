@@ -1,5 +1,5 @@
 # DataHouse
-Short coding assignment from DataHouse
+Short coding assignment from DataHouse \n
 This is the most I could get done in the 2-3 hour time range, including thinking of an idea to score each applicant. 
 I considered a variety of ideas, including a weighted scoring system based on the importance of each attribute, but
 since the team's duties were not specified, I started to think of more ideas. The weight of each attribute changes with
