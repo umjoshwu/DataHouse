@@ -40,4 +40,6 @@ def main():
 
     # Write scoredApplicants to json
     with open('output.json', 'w') as outputFile:
-        json.dump({'scoredApplicants': scored_applicants}, outputFile)
+        json.dump({'scoredApplicants': scored_applicants}, outputFile, indent=4)
+
+main()
