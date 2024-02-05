@@ -5,7 +5,7 @@ I considered a variety of ideas, including a weighted scoring system based on th
 since the team's duties were not specified, I started to think of more ideas. The weight of each attribute changes with
 the team's functions - for example, spice tolerance is much more important in say, a competitive eating team. 
 
-This is why I opted to write a script that finds how different the candidates are to the team members. Basically the script
+I opted to write a script that finds how different the candidates are to the team members. Basically the script
 calculates the maximum difference that a candidate could have between all team members called max_att, and then calculates
 how different each candidate is to the team as a whole. How different each candidate is to the team can be very subjective,
 and I calculated it by taking the difference in attribute values for all attributes in the applicant and team member.
